@@ -1,0 +1,11 @@
+# Nmap 7.94SVN scan initiated Wed Jun  5 18:50:12 2024 as: nmap -F -v -oA Logs/Initial 10.129.157.37
+Nmap scan report for 10.129.157.37
+Host is up (0.17s latency).
+Not shown: 97 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+6000/tcp filtered X11
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun  5 18:50:15 2024 -- 1 IP address (1 host up) scanned in 2.43 seconds

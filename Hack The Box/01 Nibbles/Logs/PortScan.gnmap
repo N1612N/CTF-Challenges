@@ -1,0 +1,2 @@
+# Nmap 7.94SVN scan initiated Wed Jun  5 18:50:49 2024 as: nmap -p- -v -oA Logs/PortScan 10.129.157.37
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
