@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Thu Jun  6 08:16:10 2024 as: nmap -sC -sV -v -p 80 -oA ./Logs/80_Scriptscan_nmap 10.129.47.83
+# Ports scanned: TCP(1;80) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.47.83 ()	Status: Up
+Host: 10.129.47.83 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/
+# Nmap done at Thu Jun  6 08:16:24 2024 -- 1 IP address (1 host up) scanned in 14.41 seconds

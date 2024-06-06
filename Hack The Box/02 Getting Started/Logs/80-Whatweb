@@ -1,0 +1,54 @@
+WhatWeb report for [1m[34mhttp://10.129.47.83[0m
+Status    : 200 OK
+Title     : [1m[33mWelcome to GetSimple! - gettingstarted[0m
+IP        : 10.129.47.83
+Country   : [1m[31mRESERVED, ZZ[0m
+
+Summary   : [1mAddThis[0m, [1mApache[0m[[1m[32m2.4.41[0m], [1mHTML5[0m, [1mHTTPServer[0m[[1m[31mUbuntu Linux[0m][[1m[36mApache/2.4.41 (Ubuntu)[0m], [1mScript[0m[[0m[22mtext/javascript[0m]
+
+Detected Plugins:
+[ [1mAddThis[0m ]
+	AddThis is a free way to boost traffic back to your site by 
+	making it easier for visitors to share your content. 
+
+	Website     : http://www.addthis.com/
+
+[ [1mApache[0m ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : [1m[32m2.4.41[0m (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ [1mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ [1mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : [1m[31mUbuntu Linux[0m
+	String       : [1m[36mApache/2.4.41 (Ubuntu)[0m (from server string)
+
+[ [1mScript[0m ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : [1m[36mtext/javascript[0m
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Thu, 06 Jun 2024 03:11:06 GMT
+	Server: Apache/2.4.41 (Ubuntu)
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 2128
+	Connection: close
+	Content-Type: text/html; charset=utf-8
+	

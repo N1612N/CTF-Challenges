@@ -1,0 +1,16 @@
+# Nmap 7.94SVN scan initiated Thu Jun  6 08:16:10 2024 as: nmap -sC -sV -v -p 80 -oA ./Logs/80_Scriptscan_nmap 10.129.47.83
+Nmap scan report for 10.129.47.83
+Host is up (0.68s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Welcome to GetSimple! - gettingstarted
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-robots.txt: 1 disallowed entry 
+|_/admin/
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun  6 08:16:24 2024 -- 1 IP address (1 host up) scanned in 14.41 seconds

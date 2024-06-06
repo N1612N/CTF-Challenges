@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Thu Jun  6 08:16:10 2024 as: nmap -sC -sV -v -p 80 -oA ./Logs/80_Scriptscan_nmap 10.129.47.83 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -v -p 80 -oA ./Logs/80_Scriptscan_nmap 10.129.47.83" start="1717641970" startstr="Thu Jun  6 08:16:10 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1717641970"/>
+<taskend task="NSE" time="1717641970"/>
+<taskbegin task="NSE" time="1717641970"/>
+<taskend task="NSE" time="1717641970"/>
+<taskbegin task="NSE" time="1717641970"/>
+<taskend task="NSE" time="1717641970"/>
+<taskbegin task="Ping Scan" time="1717641970"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.47.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1717641971" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1717641971"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1717641971"/>
+<taskbegin task="Connect Scan" time="1717641971"/>
+<taskend task="Connect Scan" time="1717641971" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1717641971"/>
+<taskend task="Service scan" time="1717641979" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1717641979"/>
+<taskend task="NSE" time="1717641983"/>
+<taskbegin task="NSE" time="1717641983"/>
+<taskend task="NSE" time="1717641984"/>
+<taskbegin task="NSE" time="1717641984"/>
+<taskend task="NSE" time="1717641984"/>
+<host starttime="1717641971" endtime="1717641984"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.129.47.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-title" output="Welcome to GetSimple! - gettingstarted"><elem key="title">Welcome to GetSimple! - gettingstarted</elem>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-robots.txt" output="1 disallowed entry &#xa;/admin/"/></port>
+</ports>
+<times srtt="677251" rttvar="705884" to="3500787"/>
+</host>
+<taskbegin task="NSE" time="1717641984"/>
+<taskend task="NSE" time="1717641984"/>
+<taskbegin task="NSE" time="1717641984"/>
+<taskend task="NSE" time="1717641984"/>
+<taskbegin task="NSE" time="1717641984"/>
+<taskend task="NSE" time="1717641984"/>
+<runstats><finished time="1717641984" timestr="Thu Jun  6 08:16:24 2024" summary="Nmap done at Thu Jun  6 08:16:24 2024; 1 IP address (1 host up) scanned in 14.41 seconds" elapsed="14.41" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
